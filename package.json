@@ -1,6 +1,6 @@
 {
   "name": "ak-layout",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "client side layout",
   "keywords": [
     "layout"
@@ -24,7 +24,7 @@
     "node": "~0.10.22"
   },
   "dependencies": {
-    "ak-view": "~0.0.2"
+    "ak-view": "~0.0.3"
   },
   "devDependencies": {
     "browserify": "~3.12.0",
