@@ -2,7 +2,7 @@
 
 'use strict';
 
-var Layout = require('../');
+var Layout = process.env.AK_LAYOUT_TEST_COVERAGE ? require('../lib-cov/layout') : require('../');
 var View = require('ak-view');
 var template = require('ak-template');
 var assert = require('assert');
